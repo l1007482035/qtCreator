@@ -11,7 +11,7 @@ function createSpriteObjects() {
 
 function finishCreation() {
     if (component.status == Component.Ready) {
-        sprite = component.createObject(appWindow, {"x": 100, "y": 100});
+        sprite = component.createObject(appWindow, {"x": 100, "y": 100, width: 80, height: 80});
         if (sprite == null) {
             // 错误处理
             console.log("Error creating object");
@@ -20,4 +20,5 @@ function finishCreation() {
         // 错误处理
         console.log("Error loading component:", component.errorString());
     }
+
 }

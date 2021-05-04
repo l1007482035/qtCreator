@@ -3,7 +3,7 @@ import "componentCreation.js" as MyScript
 
 Rectangle {
     id: appWindow
-    width: 300; height: 300
+    width: 400; height: 200
 
     Component.onCompleted: MyScript.createSpriteObjects();
 }
