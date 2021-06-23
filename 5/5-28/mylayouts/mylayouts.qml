@@ -10,7 +10,7 @@ Item{
         spacing: 6
         Rectangle{
             color:"green"
-           // Layout.fillWidth: true
+          //Layout.fillWidth: true
             Layout.minimumWidth: 50
             Layout.preferredWidth: 100
             Layout.maximumWidth: 300

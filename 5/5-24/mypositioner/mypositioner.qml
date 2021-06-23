@@ -10,12 +10,13 @@ Grid{
 
             id:rect
             width: 50;height: 50
-            //color:Positioner.isFirstItem?"red":"lightgreen"
-            color:"lightgreen"
+            color:Positioner.isFirstItem?"red":"lightgreen"
+            //color:"lightgreen"
             border.width: 1
             Text {
                 anchors.centerIn: parent
-                text: index+1
+                //text: index+1
+                text: rect.Positioner.index+1
             }
             MouseArea{
                   hoverEnabled: true
